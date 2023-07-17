@@ -5,7 +5,7 @@ module.exports = function (environment) {
     modulePrefix: 'rocknroll',
     environment,
     rootURL: '/',
-    locationType: 'history',
+    locationType: 'auto',
     EmberENV: {
       EXTEND_PROTOTYPES: false,
       FEATURES: {
