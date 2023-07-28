@@ -22,7 +22,9 @@ module.exports = {
   env: {
     browser: true,
   },
-  rules: {},
+  rules: {
+    'at-rule-no-unknown': 0,
+  },
   overrides: [
     // node files
     {
